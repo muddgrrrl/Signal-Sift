@@ -1,11 +1,21 @@
+<p align="center">
+  <img src="readme-banner.png" width="920" alt="Signal Sift. Follow stories across two sources · 7  /  30  /  90 · Search window (days).">
+</p>
+
 # Signal Sift
 
 A native Mac search window for following tech stories and niche topics across Hacker News and the wider press.
 
-- Search any topic, with 7-, 30-, and 90-day windows.
-- Read results as they arrive, filter by source, and sort by date or source order.
-- Open the original link or the Hacker News discussion. Duplicate article URLs are grouped after common tracking parameters are removed.
-- A slow or unavailable source leaves the other source’s results usable.
+## At a glance
+
+| Task | How |
+| --- | --- |
+| **Find stories** | Search Hacker News and GDELT over 7, 30, or 90 days. |
+| **Refine the results** | Filter by source or sort by date or source order. |
+| **Read or discuss** | Open the original article or its Hacker News discussion when available. |
+| **Download for macOS** | [SignalSift-macOS.zip](https://github.com/muddgrrrl/Signal-Sift/releases/latest/download/SignalSift-macOS.zip) |
+
+Duplicate article URLs are grouped after common tracking parameters are removed. Results appear as they arrive. A slow or unavailable source leaves the other source’s results usable.
 
 The app searches [Hacker News via Algolia](https://hn.algolia.com/api) and the [GDELT DOC API](https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/). Each service controls its coverage and rate limits. GDELT dates indicate when GDELT first observed the link. Search text is sent to these services when you submit a query. Signal Sift does not require an account or save a search history.
 
